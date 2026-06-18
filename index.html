@@ -24,6 +24,53 @@
 			<ul id="usersList"></ul>
 		</div>
 
+		<div class="container">
+			<h2 class="text-center">Crea nuovo utente</h2>
+			<form id="createUser">
+				<div class="row">
+					<div class="col-4">
+						<label for="nameUser" class="form-label"
+							>Nome completo</label
+						>
+						<input
+							type="text"
+							id="nameUser"
+							name="nameUser"
+							class="form-control"
+						/>
+					</div>
+					<div class="col-4">
+						<label for="userName" class="form-label"
+							>Username</label
+						>
+						<input
+							type="text"
+							id="userName"
+							name="userName"
+							class="form-control"
+						/>
+					</div>
+					<div class="col-4">
+						<label for="email" class="form-label">Email</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							class="form-control"
+						/>
+					</div>
+				</div>
+				<button
+					type="submit"
+					id="sendUser"
+					class="btn btn-info rounded-4 mt-3"
+				>
+					INVIA
+				</button>
+			</form>
+			<h4 id="formResponse"></h4>
+		</div>
+
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
